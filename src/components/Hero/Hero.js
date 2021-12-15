@@ -9,7 +9,7 @@ const Hero = () => {
                 src={'/images/hero-img.jpg'}
                 alt={'An Example image of a cute cat staring at the you with a black background'}
             />
-            <Swoop src="/swoop.svg" />
+            <Swoop src="/swoop.svg" aria-hidden={true} alt="" />
         </Wrapper>
     );
 };
