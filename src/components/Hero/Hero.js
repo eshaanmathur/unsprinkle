@@ -5,7 +5,10 @@ import ResposiveImage from '../ResponsiveImage';
 const Hero = () => {
     return (
         <Wrapper>
-            <HeroImage src={'/images/hero-img.jpg'} alt={'A cute cat staring at the you with a black background'} />
+            <HeroImage
+                src={'/images/hero-img.jpg'}
+                alt={'An Example image of a cute cat staring at the you with a black background'}
+            />
             <Swoop src="/swoop.svg" />
         </Wrapper>
     );
